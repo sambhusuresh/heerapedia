@@ -1,0 +1,43 @@
+/* Add here all your css styles (customizations) */
+.g-color-primary {
+    color: #ff8901 !important;
+}
+.g-bg-primary {
+    background-color: #ff8901 !important;
+}
+a:focus, a:hover {
+    color: rgb(11, 69, 99) !important;
+    outline: none;
+}
+a {
+    color: #ff8901;
+    outline: none;
+}
+.u-go-to-v1:hover, .u-go-to-v1:focus:hover {
+    color: #fff !important;
+    background-color: #ff8901;
+}
+.u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
+    color: #ff8901 !important;
+}
+
+.u-header__section--light .navbar-nav:not([class*="u-main-nav-v"]) .active > .nav-link{
+    color: #ff8901;
+}
+.g-brd-primary {
+    border-color: #fd8c00 !important;
+}
+.u-accordion-color-primary .u-accordion__header [aria-expanded="true"] {
+    color: #ff8901 !important;
+}
+
+.g-bg-orange-lineargradient{
+    background-image: linear-gradient(225deg, #ff514f, #ed6d0f);
+}
+
+@media (min-width: 1200px){
+    .g-mx-15--xl {
+        margin-left: .8rem !important;
+        margin-right: .8rem !important;
+    }
+}
